@@ -1,0 +1,28 @@
+{
+  "name": "clase06",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tienda": "npx nodemon dist/tienda.js",
+    "producto": "npx nodemon dist/producto.js",
+    "tscw": "npx tsc -w",
+    "start": "nodemon dist/index.js",
+    "debug": "NODE_ENV=DEBUG npx nodemon dist/index.js",
+    "cliente": "npx nodemon dist/cliente.js",
+    "cliente:pro": "node dist/cliente.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "nodemon": "^3.1.11",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "librerias": "file:../Librerias"
+  }
+}

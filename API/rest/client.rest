@@ -1,0 +1,14 @@
+
+
+
+### EndPoint de Prueba para la API de Cliente
+GET http://localhost:3000/api/v1/clients/healthy
+
+
+### EndPoint de Prueba para la API de Cliente
+GET http://localhost:3000/api/v1/clients/getAllByCriterio
+Content-Type: application/json; charset=utf-8
+
+{
+    "criterio": "www"
+}

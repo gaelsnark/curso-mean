@@ -1,0 +1,27 @@
+{
+  "name": "clase05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "NODE_ENV=DEBUG npx nodemon dist/index.js",
+    "tsw": "npx tsc -w",
+    "start": "NODE_ENV=PRO node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.0.6",
+    "nodemon": "^3.1.11",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.1.0",
+    "librerias": "file:../Librerias",
+    "mongodb": "^7.0.0",
+    "readline-sync": "^1.4.10"
+  }
+}

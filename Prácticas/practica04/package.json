@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.8",
+    "nodemon": "^3.1.11",
+    "typescript": "^5.9.3"
+  },
+  "name": "practica04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsw": "npx tsc -w",
+    "start": "npx nodemon ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "librerias": "file:../Librerias",
+    "mongodb": "^7.0.0",
+    "readline-sync": "^1.4.10"
+  }
+}

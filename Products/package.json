@@ -1,0 +1,24 @@
+{
+  "name": "products",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=PRO node ./dist/index.js",
+    "debug": "NODE_ENV=DEBUG npx nodemon dist/index.js",
+    "tsw": "npx tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "librerias": "file:../Librerias",
+    "mongodb": "^7.0.0"
+  }
+}

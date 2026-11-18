@@ -1,0 +1,21 @@
+{
+  "name": "clase04",
+  "version": "1.0.0",
+  "description": "Clase de introducción a funciones",
+  "main": "index.js",
+  "scripts": {
+    "tsw": "npx tsc -w",
+    "start": "npx nodemon ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Gael Durán",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.8"
+  }
+}

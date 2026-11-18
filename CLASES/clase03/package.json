@@ -1,0 +1,13 @@
+{
+  "scripts":{
+    "start":"npx nodemon ./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.8",
+    "nodemod": "^3.0.6",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
